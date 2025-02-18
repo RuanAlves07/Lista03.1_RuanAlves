@@ -19,3 +19,5 @@ if peso >= 90 and peso < 100:
     print("Seu peso é Meio-pesado!")
 if peso >= 100:
     print("Seu peso é Pesado!")
+
+print("Ruan Augusto Alves")

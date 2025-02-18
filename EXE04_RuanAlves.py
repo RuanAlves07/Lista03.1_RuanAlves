@@ -11,17 +11,15 @@
 
 nome = input("Insira seu nome: ")
 idade = int(input("Insira sua idade: "))
-sexualidade = input("Insira seu genero: (M/F)")
+sexualidade = input("Insira seu genero: (M/F) ")
 
-if sexualidade != "M" and sexualidade != "F":
-    print("Porfavor, insira um genero valido!")
-if sexualidade == "M" and idade >= 18 and idade <= 39:
-    print("Alistado!")
-else:
-    if idade < 18 and idade > 39:
-        print("Alistamento não aceito.")
 if sexualidade == "F" and idade >= 21 and idade <= 34:
-    print("Alistada!")
+    print("Você está alistado!")
+
+elif sexualidade == "M" and idade >= 18 and idade <= 39:
+        print("Você está alistado!")
+        
 else:
-    if idade < 21 and idade > 35:
-        print("Alistamento não aceito.")
+    print("Você não foi convocado(a)")
+
+print("Ruan Augusto Alves")

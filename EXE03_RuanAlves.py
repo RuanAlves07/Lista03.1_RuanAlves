@@ -8,3 +8,6 @@ if  salario * 0.08 > emprestimo / parcela:
     print("Emprestimo foi liberado!")
 else:
     print("Emprestimo não foi liberado.")
+
+
+print("Ruan Augusto Alves")

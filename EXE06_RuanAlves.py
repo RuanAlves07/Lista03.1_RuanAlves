@@ -8,3 +8,6 @@ if qntd_candidato > (qntd_eleitores / 2):
     print("Não haverá segundo turno, o candidato mais votado do municipio segue com {} votos dentre os {} votos no total.".format(qntd_candidato, qntd_eleitores))
 else:
     print("Será necessário segundo turno.")
+
+
+print("Ruan Augusto Alves")

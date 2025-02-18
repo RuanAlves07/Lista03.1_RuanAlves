@@ -10,3 +10,5 @@ else:
     preço_total = preço_custo * 0.35
     preço_total = preço_total + preço_custo
     print("Valor total deu: {}".format(preço_total))
+
+print("Ruan Augusto Alves")

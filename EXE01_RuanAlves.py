@@ -8,7 +8,7 @@ risco = input("Insira o grau de aceitação de risco (BX para Baixo, AL para Alt
 if risco != "BX" or "AL":
     print("Por favor, insira uma das opções validas citadas acima.")
 
-investimento = int(input("Insira o valor aceito investido."))
+    investimento = int(input("Insira o valor que queira investir: "))
 
 
 if investimento < 1000 and risco == "BX":
@@ -19,3 +19,5 @@ if investimento < 1000 and risco == "AL":
     print("Você deve investir em BitCoins!")
 if investimento >= 1000 and risco == "AL":
     print("Você deve investir em ações!")
+
+print("Ruan Augusto Alves")
