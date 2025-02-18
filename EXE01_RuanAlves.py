@@ -4,20 +4,20 @@
 # O grau de aceitação de risco deve ser lido no teclado na forma BX para baixo ou AL para alto se for fornecido algo diferente disso o programa deve mostrar uma mensagem indicando que foi fornecido um dado invalido. Para o valor deve ser um numero real
 
 risco = input("Insira o grau de aceitação de risco (BX para Baixo, AL para Alto.)")
-
-if risco != "BX" or "AL":
-    print("Por favor, insira uma das opções validas citadas acima.")
-
-    investimento = int(input("Insira o valor que queira investir: "))
+investimento = int(input("Insira o valor que queira investir: "))
 
 
 if investimento < 1000 and risco == "BX":
     print("Você deve investir em poupança!")
-if investimento >= 1000 and risco == "BX":
+elif investimento >= 1000 and risco == "BX":
     print("Você deve investir na renda fixa!")
-if investimento < 1000 and risco == "AL":
+elif investimento < 1000 and risco == "AL":
     print("Você deve investir em BitCoins!")
-if investimento >= 1000 and risco == "AL":
+elif investimento >= 1000 and risco == "AL":
     print("Você deve investir em ações!")
+
+else:
+    print("Dados invalidos!")
+    
 
 print("Ruan Augusto Alves")
