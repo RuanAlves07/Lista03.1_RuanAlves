@@ -4,7 +4,9 @@ preço_custo = int(input("Insira o preço de custo do produto: "))
 
 if preço_custo <= 100:
     preço_total = preço_custo * 0.45
+    preço_total = preço_total + preço_custo
     print("Valor total deu: {}".format(preço_total))
 else:
     preço_total = preço_custo * 0.35
+    preço_total = preço_total + preço_custo
     print("Valor total deu: {}".format(preço_total))
